@@ -1,0 +1,36 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+
+
+.example-form-field {
+  width: 200px;
+}
+
+.imagen{
+  width: 50%;
+  height: 50%;
+  margin-left: 150px;
+}
+
+img{
+  width: 70%;
+  height: 50%;
+
+  object-fit: contain;
+}
+
+h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
