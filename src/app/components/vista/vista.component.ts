@@ -20,8 +20,8 @@ export class VistaComponent {
   datos: UserTs[]=[]
 
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
+
+    
     this.serviciosApi.getVista().subscribe({
       next:(datos: UserTs[])=>{
         this.datos[0] = datos[0]
